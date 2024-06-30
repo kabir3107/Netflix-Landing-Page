@@ -1,0 +1,126 @@
+@font-face {
+    font-family: montserrat;
+    src: url("./Font/montserrat/Montserrat-Regular.ttf");
+}
+
+body {
+    /* padding: 0%; */
+    margin: 0%;
+    overflow-y: hidden;
+}
+
+.root {
+    background-size: cover;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0,0.8)),url("./Graphics/Netflix_Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar {
+    padding-top: 0%;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix-image {
+    width: 16%;
+    margin-top: auto;
+}
+ 
+.btn-sign-in {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px; 
+    padding-right: 16px;
+    background-color: rgb(207, 0, 0);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.main-container {
+    width: 100%;
+    height: 90vh;
+}
+
+.main-title-container {
+    width: 100%; 
+    text-align: center;
+    color: white;
+}
+
+.main-title {
+    margin-top: 10rem;
+    font-size: 3rem;
+    margin-bottom: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.0rem;
+    line-height: 3.5rem;
+    font-weight: 750;
+}
+
+.main-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.main-call-to-action {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.main-email-container {
+    /* margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.email-box {
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 10rem;
+    padding-left: 1rem;
+    font-size: 1em;
+    border: 0.5px solid;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-color: rgb(174, 174, 174);
+    
+}
+
+.btn-get-started {
+    margin: 10px;
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 0, 0);
+    color: white;
+    font: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.btn-get-started:hover {
+    background-color: rgb(172, 0, 0);
+
+}
